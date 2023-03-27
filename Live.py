@@ -1,7 +1,6 @@
 import re
-import GuessGame
-import MemoryGame
-import CurrencyRouletteGame
+from Games import GuessGame, MemoryGame, CurrencyRouletteGame
+
 
 def welcome(name):
     print(f"Hello {name} and welcome to the World of Games (WoG).","\n", "Here you can find many cool games to play.")
